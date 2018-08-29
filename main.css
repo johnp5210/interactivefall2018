@@ -1,0 +1,30 @@
+        body {
+            max-width: 600px;
+            font-size: 20px;
+            background-color: #f1f1f1;
+        }
+        
+        p {
+            margin-bottom: 0;
+        }
+        
+        #container {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        button {
+            font-size: 20px;
+            font-family: 'times new roman';
+            margin-top: 5px;
+                        margin-right: 5px;
+
+            border: 1px solid grey;
+                  background-image: linear-gradient(to right, #f1f1f1 , white);
+
+        }
+
+        button:hover {
+        cursor: pointer;
+        box-shadow: 5px 10px 20px #888888;
+
+        }
