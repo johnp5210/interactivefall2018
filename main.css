@@ -20,14 +20,57 @@
             margin-top: 5px;
             margin-right: 5px;
             border: 1px solid grey;
-            background-image: linear-gradient(to right, #f1f1f1 , white);
+            background-color: #f1f1f1;
             transition: .2s ease;
+            outline: none;
 
 
         }
+
+#style button {
+            letter-spacing: 2px;
+            background-image: linear-gradient(to top, lightgrey , #f1f1f1,lightgrey, #f1f1f1,lightgrey, #f1f1f1,lightgrey,#f1f1f1,lightgrey, #f1f1f1,lightgrey);
+            
+    
+}
+
+#style p {
+    margin: 0;
+    padding: 0;
+                color: black;
+        text-shadow: 5px 5px 2px #888888;
+
+}
+
+
 
         button:hover {
         cursor: pointer;
-        box-shadow: 5px 10px 20px #888888;
+        box-shadow: 5px 5px 15px #888888;
 
         }
+
+        a {
+            color: grey;
+            text-decoration: none;
+        }
+
+a:hover {
+    color: black
+}
+
+ol, ul {
+
+}
+
+ol, ul {
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+li {
+    margin-left: 20px;
+}
