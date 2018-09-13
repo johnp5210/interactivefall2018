@@ -1,52 +1,53 @@
         body {
-            max-width: 600px;
-            font-size: 22px;
+            font-size: 20px;
             background-color: #f1f1f1;
+
         }
         
         p {
-            margin-bottom: 0;
+            margin: 10px 0px 0px 0px;
+                            max-width: 600px;
+
+            
         }
         
         #container {
-            margin-left: 20px;
-            margin-right: 20px;
+            margin: 10px 20px;
+
         }
         button {
             padding: 10px;
             border-radius: 10px;
-            font-size: 22px;
+            font-size: 20px;
             font-family: 'times new roman';
             margin-top: 5px;
             margin-right: 5px;
             border: 1px solid grey;
             background-color: #f1f1f1;
-            transition: .2s ease;
+            transition: .1s ;
             outline: none;
 
 
         }
 
-#style button {
-            letter-spacing: 2px;
-            background-image: linear-gradient(to top, lightgrey , #f1f1f1,lightgrey, #f1f1f1,lightgrey, #f1f1f1,lightgrey,#f1f1f1,lightgrey, #f1f1f1,lightgrey);
-            
-    
-}
-
-#style p {
+.section {
+    display: inline-block;
+    float: left;
+    min-width: 360px;
     margin: 0;
-    padding: 0;
-                color: black;
-        text-shadow: 5px 5px 2px #888888;
-
 }
+
+#contact {
+    margin:20px 0px 10px;
+}
+
+
 
 
 
         button:hover {
         cursor: pointer;
-        box-shadow: 5px 5px 15px #888888;
+        box-shadow: 4px 4px 10px #888888;
 
         }
 
@@ -59,18 +60,74 @@ a:hover {
     color: black
 }
 
-ol, ul {
-
-}
 
 ol, ul {
     padding: 0;
+    margin: 20px 0px 0px;
+     max-width: 660px;
+
+
 }
 
 ol li {
     margin-bottom: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+
 }
 
 li {
     margin-left: 20px;
+    padding-bottom: 20px;
+    
 }
+
+
+
+
+#style button {
+            letter-spacing: 2px;
+            background-image: linear-gradient(to top, lightgrey , #f1f1f1,lightgrey, #f1f1f1,lightgrey, #f1f1f1,lightgrey,#f1f1f1,lightgrey, #f1f1f1,lightgrey);
+            
+    
+}
+
+#style p {
+    margin: 0;
+    padding: 0;
+        color: black;
+        text-shadow: 5px 5px 2px #888888;
+
+}
+
+#responsive button  {
+            width: 70%;
+            height: 48px;
+    
+}
+
+
+#responsive button  {
+  text-align: justify;
+}
+#responsive button:after {
+  content: "";
+  display: inline-block;
+  width: 70%;
+    height: 10px;
+}
+
+#responsive button:hover  {
+    
+  width: 100%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    
+}
+
+
+
