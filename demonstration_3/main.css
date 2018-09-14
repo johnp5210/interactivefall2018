@@ -1,12 +1,11 @@
 @font-face{
 font-family: Favorit;
-src: url('reef-webfont.woff'), url('favorit.woff') format('woff');}	
+src: url('favorit.woff') format('woff');}	
 
     body {
 		margin: 0;
         padding: 0;
 		color: #131313;
-		height: 100vh;
 		overflow: hidden;
 	}
 	.half {
@@ -14,6 +13,8 @@ src: url('reef-webfont.woff'), url('favorit.woff') format('woff');}
 		height: 100vh;
 		background-color: #f1f1f1;
 		float: left;
+        overflow: hidden;
+
 	}
 	#picture {
 		width: 100%;
@@ -104,8 +105,8 @@ src: url('reef-webfont.woff'), url('favorit.woff') format('woff');}
 
 		}
 		p {
-			margin: 5% 10%;
-			width: 80%;
+			margin: 5% 5%;
+			width: 90%;
 			bottom: 50vh;
 		}
 		#gradient {
