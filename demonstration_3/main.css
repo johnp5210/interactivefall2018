@@ -1,128 +1,111 @@
 @font-face{
-font-family: Favorit;
-src: url('favorit.woff') format('woff');}	
-
-    body {
-		margin: 0;
-        padding: 0;
-		color: #131313;
-		overflow: hidden;
-		background-color: #f1f1f1;
-        
-
-	}
-	.half {
-		width: 50%;
-		height: 100vh;
-		background-color: #f1f1f1;
-		float: left;
-        overflow: hidden;
-
-	}
-	#picture {
+	font-family: Favorit;
+	src: url('favorit.woff') format('woff');
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #131313;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+.half {
+	width: 50%;
+	height: 100vh;
+	background-color: #f1f1f1;
+	float: left;
+	overflow: hidden;
+}
+#picture {
+	width: 100%;
+	height: 100%;
+	background-image: url(imgs/frank.png);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+}
+h1 {
+	position: absolute;
+	width: 50vw;
+	margin: 5% 0 0 4%;
+	font-family: Favorit;
+	font-weight: 500;
+	text-align: left;
+	font-size: 11vw;
+	line-height: 8vw;
+	letter-spacing: -1vw;
+}
+h2 {
+	position: absolute;
+	width: 50vw;
+	line-height: 100vh;
+	margin: 0;
+	letter-spacing: 1vw;
+	font-family: 'Amethysta', serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 28px;
+	text-align: justify;
+}
+h2:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+p {
+	position: absolute;
+	bottom: 0px;
+	margin: 0% 0% 4% 5%;
+	width: 35%;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	font-family: monospace;
+}
+a {
+	color: grey;
+	text-decoration: none;
+}
+#gradient {
+	left: 50vw;
+	display: inline-block;
+	position: absolute;
+	width: 50px;
+	height: 100vh;
+	background: linear-gradient(to right, rgba(241, 241, 241, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+@media only screen and (max-width: 800px) {
+	body {
 		width: 100%;
 		height: 100%;
-		background-image: url(imgs/frank.png);
-		background-repeat: none;
-		background-position: center;
-		background-size: cover;
+		position:fixed;
+	}
+	.half {
+		width: 100vw;
+		height: 50vh;
 	}
 	h1 {
-        position: absolute;
-        width: 50vw;
-        margin: 5% 0 0 4%;
-        font-family: Favorit;
-        font-weight: 500;
-        text-align: left;
-		font-size: 11vw;
-		line-height: 8vw;
-		letter-spacing: -1vw;
+		width: 100vw;
+		margin: 8% 8%;
+		font-size: 80px;
+		line-height: 60px;
+		letter-spacing: -5px;
 	}
-
 	h2 {
-		position: absolute;
-		width: 50vw;
-		line-height: 100vh;
-		margin: 0;
-        		letter-spacing: 1vw;
-
-        font-family: 'Amethysta', serif;
-		text-transform: uppercase;
-		font-weight: 100;
-		font-size: 28px;
-		text-align: justify;
+		width: 100vw;
+		line-height: 46vh;
+		font-size: 22px;
 	}
-
-	h2:after {
-		content: "";
-		display: inline-block;
-		width: 100%;
-	}
-
 	p {
-        position: absolute;
-		bottom: 0px;
-		margin: 0% 0% 4% 5%;
-		width: 35%;
-		font-size: 12px;
-		line-height: 14px;
-		text-align: left;
-		font-family: monospace;
+		margin: 5% 5%;
+		width: 90%;
+		bottom: inherit;
+		top: 25vh;
 	}
-
-    a {
-        color: grey;
-        text-decoration: none;
-    }
-
-
 	#gradient {
-		left: 50vw;
-		display: inline-block;
-		position: absolute;
-		width: 50px;
-		height: 100vh;
-		background: linear-gradient(to right, rgba(241, 241, 241, 1) 0%, rgba(255, 255, 255, 0) 100%);
-
+		left: 0vw;
+		width: 100vw;
+		height: 20px;
+		background: linear-gradient(to bottom, rgba(241, 241, 241, 1) 0%, rgba(255, 255, 255, 0) 100%);
 	}
-
-
-
-
-	@media only screen and (max-width: 800px) {
-        
-        body {
-        width: 100%;
-    height: 100%;
-position:fixed;
-        }
-		.half {
-			width: 100vw;
-			height: 50vh;
-		}
-		h1 {
-			width: 100vw;
-			margin: 8% 8%;
-			font-size: 80px;
-			line-height: 60px;
-            letter-spacing: -5px;
-		}
-		h2 {
-			width: 100vw;
-			line-height: 46vh;
-    		font-size: 22px;
-
-		}
-		p {
-			margin: 5% 5%;
-			width: 90%;
-			bottom: inherit;
-            top: 25vh;
-		}
-		#gradient {
-			left: 0vw;
-			width: 100vw;
-			height: 20px;
-			background: linear-gradient(to bottom, rgba(241, 241, 241, 1) 0%, rgba(255, 255, 255, 0) 100%);
-		}
-	}
+}
