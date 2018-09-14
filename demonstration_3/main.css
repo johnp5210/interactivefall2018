@@ -116,7 +116,8 @@ position:fixed;
 		p {
 			margin: 5% 5%;
 			width: 90%;
-			bottom: 50vh;
+			bottom: inherit;
+            top: 25vh;
 		}
 		#gradient {
 			left: 0vw;
