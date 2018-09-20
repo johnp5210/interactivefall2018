@@ -5,14 +5,14 @@
         }
         
         p {
-            margin: 10px 0px 0px 0px;
+            margin: 20px 0px 0px 0px;
                             max-width: 600px;
 
             
         }
         
         #container {
-            margin: 10px 20px;
+            margin: 0px 20px;
 
         }
         button {
@@ -100,6 +100,7 @@ li {
 
 }
 
+
 #responsive button  {
             width: 70%;
             height: 48px;
@@ -123,10 +124,47 @@ li {
 
 }
 
+#animation p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+#animation button {
+    border-radius: 0;
+      -webkit-animation: animated2 4s ease infinite; /* Safari 4+ */
+  -moz-animation:    animated2 4s ease infinite; /* Fx 5+ */
+  -o-animation:      animated2 4s ease infinite; /* Opera 12+ */
+  animation:         animated2 4s ease infinite; /* IE 10+, Fx 29+ */
+}
+
+
+@-webkit-keyframes animated2 {
+  0%   { border-radius: 0; }
+  50% { border-radius: 20px; }
+  100% { border-radius: 0; }
+
+}
+@-moz-keyframes animated2 {
+  0%   { border-radius: 0; }
+  50% { border-radius: 20px; }
+  100% { border-radius: 0; }
+}
+@-o-keyframes animated2 {
+  0%   { border-radius: 0; }
+  50% { border-radius: 20px; }
+  100% { border-radius: 0; }
+}
+@keyframes animated2 {
+  0%   { border-radius: 0; }
+  50% { border-radius: 20px; }
+  100% { border-radius: 0; }
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
 
-    
 }
 
 
