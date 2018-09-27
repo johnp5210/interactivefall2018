@@ -1,0 +1,43 @@
+        body {
+            margin: 0px;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+        #container {
+            margin: 0;
+        }
+        #screensaver  {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-image: none;
+            transition: .5s ease;
+            background-color: transparent;
+            z-index: 100;
+        }
+   
+        #about{
+            position: absolute;
+        }
+        
+        p{
+            margin: 20px;
+            color: white;
+            font-size: 40px;
+            width: 75vw;
+            z-index: 0;
+        }
+        
+        #ticker {
+            position: absolute;
+            bottom: 20px;
+            margin: 20px;
+            z-index: 100;
+            font-size: 40px;
+            color: white;
+            mix-blend-mode:difference;
+        }
+  
