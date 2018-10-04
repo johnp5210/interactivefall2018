@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<meta charset="utf-8">
+<title>Scan Generator</title>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="scripts.js"></script>
+  
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        #left {
+            background-color: #f1f1f1;
+            width: 20vw;
+            height: 100vh;
+            padding: 2vw;
+            float: left;
+            font-size: 11px;
+            font-family: sans-serif;
+
+        }
+        input{
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+        button{
+          font-family: sans-serif;
+        }
+        #right {
+            float: left;
+            width: 600px;
+            width: 75vw;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 100vh;
+        }
+        
+        #text{
+            font-size: 30px;
+            max-width: 30vw;
+        }
+        
+        #poster{
+            display: inline-block;
+            text-align: left;
+            line-height: 30px;
+            vertical-align: middle;
+        }
+        
+     
+        
+        img {
+            max-height: 80vh;
+            max-width: 30vw;
+            -webkit-filter: grayscale(100%) contrast(100);
+            filter: grayscale(100%) contrast(100);
+        }
+        
+        #date{
+            font-size: 11px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <b>Scan Generator</b>
+            <form>
+            <div><textarea class="default-value" id="textarea">Type text here</textarea></div>
+            <div><input id="submit" type="button" value="Generate Text" onclick="append()" /></div>
+            </form>
+            <input id="file" type="file" onchange="previewFile()">
+        </div>
+        <div id="right">
+            <div id="poster">
+                <div id="text">(Placeholder Text)</div>
+                <img src="https://usastudenttravel.com/wp-content/uploads/2017/05/Full_image_placeholder.jpg"  alt=" ">
+                <div id="date"></div>
+            </div>
+         </div>
+    </div>
+    </body>
+</html>

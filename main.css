@@ -64,14 +64,14 @@ a:hover {
 
 ol, ul {
     padding: 0;
-    margin: 20px 0px 0px;
+    margin: 15px 0px 0px;
      max-width: 660px;
 
 
 }
 
 ol li {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 5px;
 
@@ -85,7 +85,9 @@ li {
 
 
 
-
+button{
+    margin-top: 0;
+}
 #style button {
             letter-spacing: 2px;
             background-image: linear-gradient(to top, lightgrey , #f1f1f1,lightgrey, #f1f1f1,lightgrey, #f1f1f1,lightgrey,#f1f1f1,lightgrey, #f1f1f1,lightgrey);
@@ -106,6 +108,12 @@ li {
             width: 70%;
             height: 48px;
     
+}
+.emoji img {
+    display: inline-block;
+    line-height: 0;
+    height: 20px;
+    margin: -2px
 }
 
 
@@ -136,6 +144,17 @@ li {
     margin-top:2px;
     padding: 0;
     color: black;
+}
+
+#tool p {
+    margin: 0;
+    margin-top:2px;
+    padding: 0;
+    color: #f1f1f1;
+}
+
+#tool button {
+    background-color: black;
 }
 #animation button {
     border-radius: 0;

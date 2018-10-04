@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //Variables for a slideshow
-    var bgImages = ["imgs/slide1.jpg", "imgs/slide2.jpg", "imgs/slide3.jpg", "imgs/slide4.jpg", ];
+    var bgImages = ["imgs/slide1.jpg", "imgs/slide2.jpg", "imgs/slide3.jpg", "imgs/slide4.jpg"];
     var count = bgImages.length;
     var ticker = 0;
     var time = 0;
@@ -14,7 +14,6 @@ $(document).ready(function() {
     //Display text to HTML
     $("#text").text(message + ", " + name + ".")
     $("#date").text(date);
-
 
     function screensaver() {
         var url = "url(" + bgImages[ticker] + ")"
